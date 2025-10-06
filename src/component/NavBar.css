@@ -1,0 +1,50 @@
+.navbar {
+    background: white;
+    padding: 1rem 0;
+  }
+  
+  .navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+  }
+  
+  .title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+  }
+
+  .title:hover{
+    color: transparent;
+  }
+
+  .title:hover::after{
+    content: attr(data-hover);
+    position: absolute;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+  }
+
+  .nav-links {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .nav-link {
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    color: black;
+    border-radius: 8px;
+    transition: background 0.3s;
+  }
+  
+  .nav-link:hover {
+    color: gold;
+  }
