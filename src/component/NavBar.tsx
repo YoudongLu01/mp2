@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom';
 import './NavBar.css';
 
 
-//I set ListView as the front page
 const Navbar: React.FC = () => {
     return (
       <div className="navbar">
